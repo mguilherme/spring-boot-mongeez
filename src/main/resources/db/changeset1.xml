@@ -1,0 +1,16 @@
+<mongoChangeLog>
+    <changeSet changeId="ChangeSet-1" author="mguilherme82">
+        <script>
+            db.roles.insert({
+                "_id" : ObjectId("585873560fb86631f1db3ade"),
+                "_class" : "com.example.domain.Role",
+                "name" : "ADMIN"
+            });
+            db.roles.insert({
+                "_id" : ObjectId("585873560fb86631f1db3adf"),
+                "_class" : "com.example.domain.Role",
+                "name" : "USER"
+            });
+        </script>
+    </changeSet>
+</mongoChangeLog>
